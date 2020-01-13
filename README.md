@@ -1,2 +1,2 @@
 # WeAlchemy
-WeAlchemy is coded for Atuo-Clicking of Android Device
+WeAlchemy is coded for Auto-Clicking of Android Device
