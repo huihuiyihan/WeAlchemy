@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">WeAlchemy</string>
+    <string name="app_name_wx">WeXinAlchemy</string>
+    <string name="wx_accessibility_description">企业微信红包助手，帮助你实现在企业微信中，自动抢个人红包和群红包</string>
+    <string name="accessibility_description">企业微信红包助手，帮助你实现在企业微信中，自动抢个人红包和群红包</string>
+    <string name="preference_setting">偏好设置</string>
+
+    <string name="open_assistant">开启助手</string>
+    <string name="open_monitor_notification">开启通知监听</string>
+
+    <string name="service_off">关闭</string>
+    <string name="service_on">开启</string>
+
+    <string name="red_packet">红包</string>
+    <string name="chat_red_packet">红包]</string>
+    <string name="open_red_packet">领取红包</string>
+    <string name="red_packet_have_opened">手慢了，红包派完了</string>
+    <string name="red_packet_expired">该红包已过期</string>
+    <string name="notification_default_keyword">红包]</string>
+
+    <string name="monitor_setting">监视选项</string>
+    <string name="monitor_notification">监视系统通知</string>
+    <string name="monitor_notification_keyword">设置监听关键词</string>
+    <string name="safty_setting">防封号选项</string>
+    <string name="delay_opening_red_packet">延时拆开红包</string>
+    <string name="open_red_packet_automatically">自动拆开红包</string>
+    <string name="close_red_packet_automatically">自动关闭红包</string>
+    <string name="click_msg_automatically">自动点击红包消息</string>
+    <string name="about">关于本应用</string>
+    <string name="version">版本</string>
+    <string name="author">作者</string>
+    <string name="instructions">使用说明</string>
+    <string name="instructions_detail"></string>
+
+    <string name="github_1">© 2019 Liconghui</string>
+    <string name="github_2">本项目仅供学习，禁止商业传播</string>
+    <string name="star_2">--</string>
+    <string name="star_1">★</string>
+
+    <string-array name="delayTimes">
+        <item>延时0毫秒</item>
+        <item>延时100毫秒</item>
+        <item>延时200毫秒</item>
+        <item>延时300毫秒</item>
+        <item>延时400毫秒</item>
+        <item>延时500毫秒</item>
+        <item>延时1000毫秒</item>
+        <item>延时2000毫秒</item>
+    </string-array>
+
+    <string-array name="delayTimesValue">
+        <item>0</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+    </string-array>
+    <string name="audio_tip">提示音</string>
+    <string name="audio_coming">红包来了</string>
+    <string name="audio_bobo">啵啵啵</string>
+    <string name="audio_jingbao">劲爆音</string>
+    <string-array name="audioChange">
+        <item>无</item>
+        <item>@string/audio_coming</item>
+        <item>@string/audio_bobo</item>
+        <item>@string/audio_jingbao</item>
+    </string-array>
+    <string-array name="audioChange_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="zhaohang">zhaohangmiao</string>
+    <string name="zhaohang_gesture">zhaohang_gesture</string>
+</resources>

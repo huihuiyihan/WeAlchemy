@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/monitor_setting">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_watch_notification"
+            android:summary="读取新消息通知中的红包提示并进入聊天页"
+            android:title="@string/monitor_notification" />
+        <EditTextPreference
+            android:defaultValue="红包];Red Packet"
+            android:key="pref_notification_keyword"
+            android:summary="当通知中出现设置的关键词时自动点击通知，多个关键词使用英文的分号';'隔开"
+            android:title="@string/monitor_notification_keyword" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/safty_setting">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_auto_click_msg"
+            android:summary="在聊天页面自动点击屏幕中最下方的红包"
+            android:title="@string/click_msg_automatically" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_auto_open"
+            android:summary="点开的红包自动点击开按钮"
+            android:title="@string/open_red_packet_automatically" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_auto_close"
+            android:summary="红包已抢完或已过期或者进入红包详情页后自动返回"
+            android:title="@string/close_red_packet_automatically" />
+        <ListPreference
+            android:entries="@array/delayTimes"
+            android:entryValues="@array/delayTimesValue"
+            android:key="pref_delay_ms"
+            android:defaultValue="0"
+            android:summary="延时一段时间点击开按钮"
+            android:title="@string/delay_opening_red_packet">
+
+        </ListPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about">
+        <Preference
+            android:key="pref_app_version"
+            android:summary="v1.1.1"
+            android:title="@string/version" />
+        <Preference
+            android:key="pref_app_author"
+            android:summary="李从辉"
+            android:title="@string/author" />
+
+        <ListPreference
+            android:key="pref_audio_alarm"
+            android:title="@string/audio_tip"
+            android:entries="@array/audioChange"
+            android:entryValues="@array/audioChange_value"
+            android:dialogTitle="@string/audio_tip"
+            android:defaultValue="0"
+            android:summary="无" />
+        <Preference
+            android:key="pref_app_setting"
+            android:summary="通知设置，可打开通知权限"
+            android:title="通知设置" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/zhaohang_gesture"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeNotificationStateChanged|typeGestureDetectionStart"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:packageNames="com.cmbchina.ccd.pluto.cmbActivity"
+    android:notificationTimeout="10"
+    android:accessibilityFlags="flagDefault"
+    android:canPerformGestures="true"
+    android:canRetrieveWindowContent="true"/>
